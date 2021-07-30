@@ -1,3 +1,6 @@
+
+![Mr. T pitys the fool](https://static.wikia.nocookie.net/rocky/images/d/dc/MrT.jpg)
+
 # Setup
 
 ```
