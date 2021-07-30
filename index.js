@@ -20,9 +20,7 @@ const mrTQuotes = async (func) => {
       if (i.querySelector("a")) {
         const possibleNum = i.querySelector("a").textContent;
 
-        if (!isNaN(possibleNum)) {
-          return parseInt(possibleNum);
-        }
+        return !isNaN(possibleNum);
       }
     })
     .map((i) => parseInt(i.textContent));
